@@ -333,7 +333,8 @@ class PTP(object):
             Agilent=0x00000003,
             Polaroid=0x00000004,
             AgfaGevaert=0x00000005,
-            Microsoft=0x00000006,
+            FujiX100=0x00000006,
+            # MicroSoft=0x00000006, # TODO: Fuji X100 appears to be reporting with this ID?
             Equinox=0x00000007,
             Viewquest=0x00000008,
             STMicroelectronics=0x00000009,

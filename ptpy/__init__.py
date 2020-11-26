@@ -5,6 +5,7 @@ from .extensions.microsoft import Microsoft
 from .extensions.parrot import Parrot
 from .extensions.nikon import Nikon
 from .extensions.sony import Sony
+from .extensions.fujix100 import FujiX100
 from .ptp import PTP, PTPError
 from .transports.usb import USBTransport as USB
 from .transports.ip import IPTransport as IP
@@ -40,6 +41,7 @@ __all__ = (
     'Microsoft',
     'Nikon',
     'Sony',
+    'FujiX100',
     # Transports
     'IP',
     'USB',
@@ -66,6 +68,7 @@ known_extensions = {
     'FotoNation': None,
     'PENTAX': None,
     'Fuji': None,
+    'FujiX100': FujiX100,
     'Sony': Sony,
     'Samsung': None,
     'Parrot': Parrot,
